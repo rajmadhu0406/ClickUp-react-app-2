@@ -1,7 +1,7 @@
 import React, { useEffect }  from 'react';
 
 // import { useEffect } from "react";
-const Callback = () => {
+const Close = () => {
 
     useEffect(()=>{
         // if(!window.localStorage.getItem('code')){
@@ -12,9 +12,9 @@ const Callback = () => {
 
     return ( 
         <div>
-            Hey this is a Callback page
+            Hey this is a close page
         </div>
      );
 }
  
-export default Callback;
+export default Close;
